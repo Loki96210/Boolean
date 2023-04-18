@@ -1,0 +1,58 @@
+body{
+   background-image: url(immagini/background.jpg);
+   background-size: cover;
+   
+}
+
+.contenitore{
+    background-color: #00000070; 
+    width: 1000px;
+    padding: 50px;
+    border-radius: 10px;
+    margin: 10px 50px 25px 50px;
+    
+    
+}
+
+header{
+    text-align: center;
+}
+
+header > h1{
+    font-family: sans-serif;
+    color: rgb(22, 221, 22);
+    
+}
+
+.Logo{
+    width: 250px;
+}
+
+.bottone{
+    background-color: rgb(22, 221, 22);
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.mono{
+    font-family: sans-serif;
+    color:white;
+    margin: 4%;
+    
+}
+
+h2:before{
+    content: '\220E';
+}
+
+p:before{
+    content: '\21A6';
+}
+
+
+    
