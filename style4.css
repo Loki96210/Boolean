@@ -1,7 +1,6 @@
 body{
    background-image: url(immagini/background.jpg);
    background-size: cover;
-   
 }
 
 .contenitore{
@@ -10,8 +9,7 @@ body{
     padding: 50px;
     border-radius: 10px;
     margin: 10px 50px 25px 50px;
-    
-    
+    background-position: center;
 }
 
 header{
@@ -21,7 +19,6 @@ header{
 header > h1{
     font-family: sans-serif;
     color: rgb(22, 221, 22);
-    
 }
 
 .Logo{
@@ -35,19 +32,38 @@ header > h1{
     height: 50px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;   
 }
 
 .mono{
     font-family: sans-serif;
     color:white;
-    margin: 4%;
-    
+    margin: 4%;    
 }
 
-h2:before{
-    content: '\220E';
+.scarica{
+    width: 300px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+#Batteria{
+    width: 500px;
+    height: 30px;
+    background-color: rgb(0, 255, 0);
+    border-radius: 10px;
+}
+
+.carica{
+    width: 150px;
+    height: 30px;
+    background-color:red;
+    border-radius: 10px;
+}
+
+div > h2{
+    display: inline-block;
 }
 
 p:before{
